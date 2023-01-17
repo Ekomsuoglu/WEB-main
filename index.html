@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Base css-->
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="site.css" rel="stylesheet" />
+    <!--Js-->
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="site.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">Ürünler</h2>
+            </div>
+            <div class="card-body">
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
+                    alt="product"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h5 id="sigara">Sigara:</h5>
+                      <h4 id="sigarafiyat">36₺</h4>
+                    </div>
+                    <a id="sigarasepet" href="#" class="btn btn-primary">Sepete Ekle</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
+                    alt="product"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h5 id="bira">Bira:</h5>
+                      <h4 id="birafiyat">39₺</h4>
+                    </div>
+                    <a id="birasepet" href="#" class="btn btn-primary">Sepete Ekle</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
+                    alt="product"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h5 id="fistik">Fıstık:</h5>
+                      <h4 id="fistikfiyat">15₺</h4>
+                    </div>
+                    <a id="fistiksepet" href="#" class="btn btn-primary">Sepete Ekle</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">Sepet Özet</h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <span id="sepet"></span>
+                  <span id="sepetFiyat"></span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <h5>Toplam Tutar:</h5>
+                <h4 id="tutar">₺</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

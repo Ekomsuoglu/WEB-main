@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/bootstrap.css" />
-    <link rel="stylesheet" href="/css/site.css" />
-    <script src="/js/bootstrap.js"></script>
-    <script src="/js/bootstrap.bundle.js"></script>
-    <script src="/js/site.js"></script>
-    <script src="/js/example.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="site.css" />
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="site.js"></script>
+    <script src="example.js"></script>
   </head>
 
   <body>
@@ -37,6 +37,9 @@
             <div class="card-header">
               <h2>Length</h2>
             </div>
+            <div class="card-body">
+              <h1 id="length-title">0</h1>
+            </div>
           </div>
         </div>
         <div class="col-md-3">
@@ -45,9 +48,11 @@
               <h2>Includes</h2>
             </div>
             <div class="card-body">
-              <input type="text" class="form-control" />
-              <button class="btn btn-sm btn-primary">Include</button>
-              <span></span>
+              <input id="include-text" type="text" class="form-control" />
+              <button id="btnIncludeInline" class="btn btn-sm btn-primary">
+                Include
+              </button>
+              <span id="include-result"></span>
             </div>
           </div>
         </div>
@@ -56,12 +61,23 @@
             <div class="card-header">
               <h2>Concat</h2>
             </div>
+            <div class="card-body">
+              <ul id="concat-list"></ul>
+            </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
             <div class="card-header">
               <h2>For</h2>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>İstanbul</li>
+                <li>İzmir</li>
+                <li>Ankara</li>
+                <li>Antalya</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -70,12 +86,23 @@
             <div class="card-header">
               <h2>ForEach</h2>
             </div>
+            <div class="card-body">
+              <ul>
+                <li>İstanbul</li>
+                <li>İzmir</li>
+                <li>Ankara</li>
+                <li>Antalya</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
             <div class="card-header">
               <h2>Pop</h2>
+            </div>
+            <div class="card-body">
+              <h1>Antalya</h1>
             </div>
           </div>
         </div>
@@ -84,6 +111,9 @@
             <div class="card-header">
               <h2>Shift</h2>
             </div>
+            <div class="card-body">
+              <h1>İstanbul</h1>
+            </div>
           </div>
         </div>
         <div class="col-md-3">
@@ -91,12 +121,18 @@
             <div class="card-header">
               <h2>Push</h2>
             </div>
+            <div class="card-body">
+              <h1>Bayburt</h1>
+            </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
             <div class="card-header">
               <h2>Unshift</h2>
+            </div>
+            <div class="card-body">
+              <h1>Yozgat</h1>
             </div>
           </div>
         </div>
