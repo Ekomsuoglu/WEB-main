@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tablo işlemleri</title>
+</head>
+<body>
+    <p>
+        Sayfa üzerinde bir takım verileri tablo fotmarında göstermek için bize sunulan etiket <strong>table</strong> etiketidir. <strong>tr</strong> ve <strong>td</strong> en çok kullanılan child etiketlerdir.
+        <span>Bazı özellikler:</span>
+        <ul>
+            <li>width: tablonun genişliğini verir.</li>
+            <li>border: tablonun çerçevesini temsil eder.</li>
+            <li>cellpadding: hücre içerisinde değerlerin dış çerçeveye olan uzaklığını temsil eder.</li>
+            <li>cellspacing: hücrelerin birbirine olan uzaklığını temsil eder.</li>
+            <li>th: kolon başlığını temsil.</li>
+            <li>rowspan: satırların birleştirilmesini sağlar.</li>
+            <li>colspan: sütunların birleştirilmesini sağlar.</li>
+        </ul>
+
+    </p>
+
+    <table width="100%" border="1" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Aldığı Ders</th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <center>
+                    <strong>Bu tablo içerisinde sınıf listesi yeralmaktadır.</strong>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>Batuhan</td>
+            <td>Doymaz</td>
+            <td>WEB</td>
+        </tr>
+        <tr>
+            <td>Altan</td>
+            <td>Kodalak</td>
+            <td>C#</td>
+        </tr>
+        <tr>
+            <td>Boran</td>
+            <td>Kaya</td>
+            <td>SQL</td>
+        </tr>
+    </table>
+</body>
+</html>

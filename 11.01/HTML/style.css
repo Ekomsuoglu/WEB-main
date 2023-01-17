@@ -1,0 +1,43 @@
+﻿#mainContainer {
+    width: 1080px;
+    height: auto;
+    /*background-color:black;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar {
+    width: 1080px;
+    height: 120px;
+    background-color: crimson;
+    border-radius: 10px 10px 0 0;
+}
+
+#navbar-title {
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    width: 250px;
+    height: 630px;
+    background-color: cadetblue;
+    float: left;
+}
+
+#content {
+    width: 580px;
+    height: 630px;
+    float: left;
+}
+
+#footer {
+    width: 1080px;
+    height: 120px;
+    background-color: crimson;
+    border-radius: 0 0 10px 10px;
+    float: left;
+}

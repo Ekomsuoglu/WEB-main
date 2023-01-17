@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web_HTML", "Web_HTML", "{A30A9AF4-833A-41C8-9CAB-68B216524248}"
+	ProjectSection(SolutionItems) = preProject
+		1_TemelEtiketler.html = 1_TemelEtiketler.html
+		2_Gorsel_Link_Islemleri.html = 2_Gorsel_Link_Islemleri.html
+		3_Listeleme_Islemleri.html = 3_Listeleme_Islemleri.html
+		4_Tablolama_Islemleri.html = 4_Tablolama_Islemleri.html
+		5_Div_Kavrami.html = 5_Div_Kavrami.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{62FEB6A2-C7A6-4CC5-8652-6A130B19C1ED}"
+	ProjectSection(SolutionItems) = preProject
+		external_css.html = external_css.html
+		internal_css.html = internal_css.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrap", "Bootstrap", "{DF14957C-79AA-40D1-9F58-2F8961ED13C6}"
+	ProjectSection(SolutionItems) = preProject
+		bootstrap.css = bootstrap.css
+		index.html = index.html
+		product.html = product.html
+		register.html = register.html
+		site.css = site.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29280C0-CEE9-4664-B4CF-1C5806153467}
+	EndGlobalSection
+EndGlobal
